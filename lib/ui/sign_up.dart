@@ -203,7 +203,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                           MaterialPageRoute(builder: (context) => HomeScreen()),
                         );
                       },
-                  
+                      child: Container(
                         height: 53,
                         width: double.infinity,
                         decoration: BoxDecoration(
